@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a85f7e1585dd4517ad64482de5861523" Name="Diagram1">
+        <EntityTypeShape EntityType="HalloweenSuitesModel.C__EFMigrationsHistory" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HalloweenSuitesModel.AspNetRoleClaim" Width="1.5" PointX="3" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HalloweenSuitesModel.AspNetRole" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="HalloweenSuitesModel.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HalloweenSuitesModel.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="HalloweenSuitesModel.AspNetUser" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HalloweenSuitesModel.AspNetUserToken" Width="1.5" PointX="5.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HalloweenSuitesModel.categoriesModel" Width="1.5" PointX="3" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HalloweenSuitesModel.OrderDetail" Width="1.5" PointX="7.5" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HalloweenSuitesModel.OrderHeader" Width="1.5" PointX="5.25" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HalloweenSuitesModel.ProductsModel" Width="1.5" PointX="5.25" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HalloweenSuitesModel.ShoppingCart" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="HalloweenSuitesModel.FK_AspNetRoleClaims_AspNetRoles_RoleId" ManuallyRouted="false" />
+        <AssociationConnector Association="HalloweenSuitesModel.FK_AspNetUserClaims_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="HalloweenSuitesModel.FK_AspNetUserLogins_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="HalloweenSuitesModel.FK_AspNetUserTokens_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="HalloweenSuitesModel.FK_OrderHeader_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="HalloweenSuitesModel.FK_ProductsModel_categoriesModels_CategoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="HalloweenSuitesModel.FK_OrderDetail_OrderHeader_OrderId" ManuallyRouted="false" />
+        <AssociationConnector Association="HalloweenSuitesModel.FK_OrderDetail_ProductsModel_ProductItemId" ManuallyRouted="false" />
+        <AssociationConnector Association="HalloweenSuitesModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
